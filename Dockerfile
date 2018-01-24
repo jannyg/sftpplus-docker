@@ -9,7 +9,7 @@ ENV SFTPPLUS_VERSION 3.29.0
 
 # Put the files needed to customize the image.
 ADD sftpplus-alpine36-x64-${SFTPPLUS_VERSION}.tar.gz sftpplus-docker-setup.sh /opt/
-COPY configuration opt/configuration/
+COPY configuration /opt/configuration/
 
 # Inform docker about what ports are used by the application.
 # * Local Manager
