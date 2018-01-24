@@ -47,7 +47,7 @@ Instructions:
 * Copy the SFTPPLus Alpine release into the root directory of the cloned
   repository.
 
-* Check the `server-configuration.ini` configuration file to match your needs.
+* Check the `configuration/server.ini` configuration file to match your needs.
 
 * Adjust `SFTPPLUS_VERSION` in `Dockerfile` to match the version which was
   downloaded.
